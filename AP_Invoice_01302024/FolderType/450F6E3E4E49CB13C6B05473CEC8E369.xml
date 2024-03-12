@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-16"?>
+<FolderType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>450F6E3E4E49CB13C6B05473CEC8E369</Id>
+    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+    <Version>2</Version>
+    <Name>Invoices</Name>
+  </Identity>
+  <Name>Invoices</Name>
+  <Description />
+  <Status>Released</Status>
+  <Category>
+    <Id>D23D46ECBC364631B970BF70E109B420</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Invoice Processes</Name>
+  </Category>
+  <LastModifiedDate>2023-01-30T11:41:03.527</LastModifiedDate>
+  <LastModifiedUser>
+    <Id>5393D4B3A3D044F6AF8B91B771FAF2C5</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <LockedByModule>None</LockedByModule>
+  <FieldGroups />
+  <FieldValidators />
+  <FolderValidatorCollection />
+  <ChildFolderTypes>
+    <FolderType>
+      <Identity>
+        <Id>84E621DEBE9CC926C405BE79C7767340</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>2</Version>
+        <Name>PO Invoice</Name>
+      </Identity>
+      <Name>PO Invoice</Name>
+      <Description />
+      <Status>Released</Status>
+      <Category>
+        <Id>D23D46ECBC364631B970BF70E109B420</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name />
+      </Category>
+      <LastModifiedDate>2023-01-30T11:41:03.527</LastModifiedDate>
+      <LastModifiedUser>
+        <Id>5393D4B3A3D044F6AF8B91B771FAF2C5</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </LastModifiedUser>
+      <LockedByModule>None</LockedByModule>
+      <FieldGroups />
+      <FieldValidators />
+      <FolderValidatorCollection />
+      <ParentFolderType>
+        <Id>450F6E3E4E49CB13C6B05473CEC8E369</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>2</Version>
+        <Name>Invoices</Name>
+      </ParentFolderType>
+      <ChildFolderTypes />
+      <NameTemplate>[FolderType]</NameTemplate>
+      <ProcessSubfoldersForValidation>false</ProcessSubfoldersForValidation>
+      <Forms />
+      <ResourceAccessTokens />
+      <ResourcePermissionType>FullControl</ResourcePermissionType>
+    </FolderType>
+  </ChildFolderTypes>
+  <NameTemplate>[FolderName]</NameTemplate>
+  <ProcessSubfoldersForValidation>false</ProcessSubfoldersForValidation>
+  <Forms>
+    <ScanForm>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </ScanForm>
+    <ValidationForm>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </ValidationForm>
+    <VerificationForm>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </VerificationForm>
+    <DocumentReviewForm>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </DocumentReviewForm>
+  </Forms>
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+</FolderType>

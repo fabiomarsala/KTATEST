@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>AB94DA743C7A4F37A7A5EAAB75181A9C</Id>
+    <Name>AP_Invoice_01302024</Name>
+    <Version>19</Version>
+  </SpaPackageIdentity>
+  <Description>AP Invoice process map and associated artifacts.  Packaged for Kofax Case: 26847985</Description>
+  <CategoryIdentity>
+    <Id>D23D46ECBC364631B970BF70E109B420</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Invoice Processes</Name>
+  </CategoryIdentity>
+  <LastModifiedDateTime>2024-02-08T17:44:24.11</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>BB2B23BAA43F034089B2228E5E15DEE5</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Administrator</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>7DABC4EB763907E62994BD115397984B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>16</Version>
+        <Name>AP Invoices</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>CombineAssociatedMaps</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+      <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules />
+    <Assets />
+    <Forms>
+      <FormIdentity>
+        <Id>926F1B9F75B84CCE82A719B1E6BFA491</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>AP Invoices_Validation_New</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>D67289F132D64C9CB452C5302B598665</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>PO_Invoice_Validation</Name>
+        <Version>29</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>DF629B82C0524755AC1CB458A5002D4E</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>PO_Invoice_DocumentReview</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>E778E96FF69E40C1B16D8869E6D46AD8</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>APInvoices_DocumentReview</Name>
+        <Version>1</Version>
+      </FormIdentity>
+    </Forms>
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources />
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders>
+      <FolderTypeIdentity>
+        <Id>450F6E3E4E49CB13C6B05473CEC8E369</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Version>2</Version>
+        <Name>Invoices</Name>
+      </FolderTypeIdentity>
+    </Folders>
+    <ExtractionGroups>
+      <DocumentGroupIdentity>
+        <Id>39AC0ACAD3D44DA58CFA4CBD5DE68184</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>21</Version>
+        <Name>EG_Verbella_ITC</Name>
+      </DocumentGroupIdentity>
+    </ExtractionGroups>
+    <ClassificationGroups>
+      <ClassificationGroupIdentity>
+        <Id>312ED04119C44E11B3C95E1C10BF0464</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>20</Version>
+        <Name>CG_Verbella_ITC</Name>
+      </ClassificationGroupIdentity>
+    </ClassificationGroups>
+    <Formatters>
+      <FormatterIdentity>
+        <Id>EAED9B0EA5E548198E89714DB08E51BD</Id>
+        <Name>DefaultDateFormatter</Name>
+      </FormatterIdentity>
+      <FormatterIdentity>
+        <Id>E614C1AE344E43638569BB4F01B28E70</Id>
+        <Name>DefaultAmountFormatter</Name>
+      </FormatterIdentity>
+      <FormatterIdentity>
+        <Id>03293457849A4D289FE3E2F8703180A2</Id>
+        <Name>T&amp;EDATE</Name>
+      </FormatterIdentity>
+      <FormatterIdentity>
+        <Id>2A7AAA90BB084ADABB456E8E52A47A14</Id>
+        <Name>QuantityFormatter</Name>
+      </FormatterIdentity>
+    </Formatters>
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>D23D46ECBC364631B970BF70E109B420</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Invoice Processes</Name>
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles />
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles>
+      <SeparationProfileIdentity>
+        <Id>FCAE4047E97CD92567871A0B4147EC80</Id>
+        <Name>Separate Invoices</Name>
+      </SeparationProfileIdentity>
+    </SeparationProfiles>
+    <Queries />
+    <ShowProcessAssociations>true</ShowProcessAssociations>
+    <ShowFormAssociations>true</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>false</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </QuickApp>
+    <GitFolderName />
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>7DABC4EB763907E62994BD115397984B</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>D23D46ECBC364631B970BF70E109B420</Id>
+            <ItemType>28</ItemType>
+            <Name>Invoice Processes</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>312ED04119C44E11B3C95E1C10BF0464</Id>
+            <ItemType>16</ItemType>
+            <Name>CG_Verbella_ITC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+            <ItemType>36</ItemType>
+            <Name>WORKQUEUE_FORM</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>39AC0ACAD3D44DA58CFA4CBD5DE68184</Id>
+            <ItemType>18</ItemType>
+            <Name>EG_Verbella_ITC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>450F6E3E4E49CB13C6B05473CEC8E369</Id>
+            <ItemType>19</ItemType>
+            <Name>Invoices</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>EAED9B0EA5E548198E89714DB08E51BD</Id>
+            <ItemType>20</ItemType>
+            <Name>DefaultDateFormatter</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>E614C1AE344E43638569BB4F01B28E70</Id>
+            <ItemType>20</ItemType>
+            <Name>DefaultAmountFormatter</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>03293457849A4D289FE3E2F8703180A2</Id>
+            <ItemType>20</ItemType>
+            <Name>T&amp;EDATE</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2A7AAA90BB084ADABB456E8E52A47A14</Id>
+            <ItemType>20</ItemType>
+            <Name>QuantityFormatter</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>E778E96FF69E40C1B16D8869E6D46AD8</Id>
+            <ItemType>6</ItemType>
+            <Name>APInvoices_DocumentReview</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>926F1B9F75B84CCE82A719B1E6BFA491</Id>
+            <ItemType>6</ItemType>
+            <Name>AP Invoices_Validation_New</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D67289F132D64C9CB452C5302B598665</Id>
+            <ItemType>6</ItemType>
+            <Name>PO_Invoice_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>DF629B82C0524755AC1CB458A5002D4E</Id>
+            <ItemType>6</ItemType>
+            <Name>PO_Invoice_DocumentReview</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7DABC4EB763907E62994BD115397984B</Id>
+            <ItemType>0</ItemType>
+            <Name>AP Invoices</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>FCAE4047E97CD92567871A0B4147EC80</Id>
+            <ItemType>32</ItemType>
+            <Name>Separate Invoices</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>E778E96FF69E40C1B16D8869E6D46AD8</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>926F1B9F75B84CCE82A719B1E6BFA491</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>D67289F132D64C9CB452C5302B598665</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>DF629B82C0524755AC1CB458A5002D4E</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>450F6E3E4E49CB13C6B05473CEC8E369</Id>
+        <Name />
+        <ItemType>19</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>EAED9B0EA5E548198E89714DB08E51BD</Id>
+        <Name />
+        <ItemType>20</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>E614C1AE344E43638569BB4F01B28E70</Id>
+        <Name />
+        <ItemType>20</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>03293457849A4D289FE3E2F8703180A2</Id>
+        <Name />
+        <ItemType>20</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>2A7AAA90BB084ADABB456E8E52A47A14</Id>
+        <Name />
+        <ItemType>20</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>FCAE4047E97CD92567871A0B4147EC80</Id>
+        <Name />
+        <ItemType>32</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>D23D46ECBC364631B970BF70E109B420</Id>
+        <Name />
+        <ItemType>28</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>13D76E30D49E4A95BDE829FBCE02238C</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>D23D46ECBC364631B970BF70E109B420</Id>
+            <ItemType>28</ItemType>
+            <Name>Invoice Processes</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>13D76E30D49E4A95BDE829FBCE02238C</Id>
+            <ItemType>6</ItemType>
+            <Name>NonPO_Invoice_DocumentReview</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>743197141D034610806AD0CD340B0A38</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>D23D46ECBC364631B970BF70E109B420</Id>
+            <ItemType>28</ItemType>
+            <Name>Invoice Processes</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>743197141D034610806AD0CD340B0A38</Id>
+            <ItemType>6</ItemType>
+            <Name>NonPO_Invoice_Validation</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables>
+      <SessionVariableIdentity>
+        <Name>SESSION_ID</Name>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>WORKQUEUE_FORM</Name>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+    </GlobalVariables>
+    <ServerVariables />
+    <DotNetReferences />
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+</SpaPackage>

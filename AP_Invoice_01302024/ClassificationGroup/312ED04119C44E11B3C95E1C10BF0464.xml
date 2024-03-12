@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ClassificationGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>312ED04119C44E11B3C95E1C10BF0464</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>20</Version>
+    <Name>CG_Verbella_ITC</Name>
+  </Identity>
+  <Name>CG_Verbella_ITC</Name>
+  <Description />
+  <Status>Released</Status>
+  <IsShared>false</IsShared>
+  <Category>
+    <Id>D23D46ECBC364631B970BF70E109B420</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Invoice Processes</Name>
+  </Category>
+  <DocumentGroups>
+    <DocumentGroupIdentity>
+      <Id>39AC0ACAD3D44DA58CFA4CBD5DE68184</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>21</Version>
+      <Name>EG_Verbella_ITC</Name>
+    </DocumentGroupIdentity>
+  </DocumentGroups>
+  <LastModifiedDate>2024-02-08T17:42:00.557</LastModifiedDate>
+  <LastModifiedUser>
+    <Id>C28AAEA36260E145AB2EFF350DEADA1F</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <LockedByModule>None</LockedByModule>
+  <ClassificationOnlineLearningEnabled>true</ClassificationOnlineLearningEnabled>
+  <ClassificationMaxDocCount>500</ClassificationMaxDocCount>
+  <ClassificationOnlineLearningFolderId>BBA55163BF664AC7A6D0B11601892675</ClassificationOnlineLearningFolderId>
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>NoAccess</ResourcePermissionType>
+</ClassificationGroup>
