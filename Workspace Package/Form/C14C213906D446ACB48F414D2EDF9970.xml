@@ -1,0 +1,2238 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SimpleForm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DBVersion>7.10</DBVersion>
+  <FormType>SimpleForm</FormType>
+  <FormIdentity>
+    <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+    <Name>WorkspaceHeader</Name>
+    <Version>54</Version>
+  </FormIdentity>
+  <Title>Workspace Header</Title>
+  <Width>960</Width>
+  <Height>620</Height>
+  <LastModifiedDateTime>2021-10-22T11:58:39.587</LastModifiedDateTime>
+  <InternalModifiedDate>2023-09-12T08:39:39.54</InternalModifiedDate>
+  <LastModifiedByUser>E91E61AD7BA14A138DBC0A8D890B9A65</LastModifiedByUser>
+  <Columns>
+    <FormColumn>
+      <Id>4326698389D48C5B035856BD97F2D41C</Id>
+      <DisplayIndex>0</DisplayIndex>
+      <Width>956</Width>
+      <PercentageWidth>100</PercentageWidth>
+      <Height>755</Height>
+      <Rows>
+        <Row>
+          <Id>46A3FE2D84E5E25692AB6D68EF281CED</Id>
+          <Width>952</Width>
+          <Height>103</Height>
+          <DisplayIndex>0</DisplayIndex>
+          <Cells>
+            <Cell>
+              <Id>659CD2FF9FC94BF2A6DB2DC6E556B627</Id>
+              <Name>Cell2</Name>
+              <Collapsible>false</Collapsible>
+              <Collapsed>false</Collapsed>
+              <Visible>true</Visible>
+              <DisplayIndex>0</DisplayIndex>
+              <Width>599.76</Width>
+              <PercentageWidth>63</PercentageWidth>
+              <CellLayout>1</CellLayout>
+              <Height>103</Height>
+              <MinHeight>60</MinHeight>
+              <Orientation>0</Orientation>
+              <Border>0</Border>
+              <BackgroundColor>#FFFFFFFF</BackgroundColor>
+              <BorderColor>#FFFFFFFF</BorderColor>
+              <CellControls>
+                <FormControl xsi:type="ButtonControl">
+                  <ControlType>Button</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>Clicked</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>7B2C8F7E502F4D37A34B302570178A10</Id>
+                            <Name>GetPersonaForResource</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>EDD967FC055A488CA21B97FAEDDFF1EE</Id>
+                            <Name>RedirectToPersonaLandingPage</Name>
+                            <ActionType>JavaScript</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>70C9FA047E9A4307B51051EA9D522EDF</Id>
+                            <Name>BC_IfLandingPageDoesNotExists</Name>
+                            <ActionType>BeginCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>E6AEB561208D47128CE8C4F354520E88</Id>
+                            <Name>Redirect2</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>37DB5DF8462C4C9F8356C5AAFCA156A7</Id>
+                            <Name>EC_IfLandingPageDoesNotExists</Name>
+                            <ActionType>EndCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>WorkspaceHeader</Name>
+                    <Version>98</Version>
+                  </FormIdentity>
+                  <Id>E7321DF399F94DC4ABAFD1CD993928AC</Id>
+                  <Name>btnLogo</Name>
+                  <Margin>
+                    <Top>16</Top>
+                    <Left>30</Left>
+                    <Right>0</Right>
+                    <Bottom>16</Bottom>
+                  </Margin>
+                  <Width>78</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>20</PercentageWidth>
+                  <Height>30</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>1</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <ToolTip />
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Stretch</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>1</ControlLayout>
+                  <ExpandToFit>false</ExpandToFit>
+                  <Text />
+                  <CausesValidation>true</CausesValidation>
+                  <Confirmation>
+                    <Message />
+                    <Show>false</Show>
+                    <Source>Dynamic</Source>
+                    <DynamicMessageType>0</DynamicMessageType>
+                  </Confirmation>
+                  <ResizeToFit>false</ResizeToFit>
+                  <DefaultButton>false</DefaultButton>
+                  <DotNetButton>false</DotNetButton>
+                  <TextAlignment>Center</TextAlignment>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                    <CssClass />
+                  </Font>
+                  <ImagePath>kofax_icon.png</ImagePath>
+                  <LoadFromStore>true</LoadFromStore>
+                  <ShowValidationSummary>false</ShowValidationSummary>
+                  <IsPrimaryButton>false</IsPrimaryButton>
+                </FormControl>
+                <FormControl xsi:type="LabelControl">
+                  <ControlType>Label</ControlType>
+                  <FormControlEvents />
+                  <FormIdentity>
+                    <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>WorkspaceHeader</Name>
+                    <Version>28</Version>
+                  </FormIdentity>
+                  <Id>14DD97198E814392B9A26C26A5409307</Id>
+                  <Name>lblHeaderTitle</Name>
+                  <Margin>
+                    <Top>20</Top>
+                    <Left>20</Left>
+                    <Right>0</Right>
+                    <Bottom>20</Bottom>
+                  </Margin>
+                  <Width>300</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>100</PercentageWidth>
+                  <Height>22</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>-1</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Inline</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Stretch</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>0</ControlLayout>
+                  <ExpandToFit>false</ExpandToFit>
+                  <Text>TotalAgility Workspace</Text>
+                  <TextAlignment>Left</TextAlignment>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Noto Sans</Name>
+                    <Overline>false</Overline>
+                    <Size>20</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF32323C</Color>
+                    <CssClass />
+                  </Font>
+                  <LabelType>Basic</LabelType>
+                  <HeadingSize>0</HeadingSize>
+                  <DisplayDateWithoutTime>false</DisplayDateWithoutTime>
+                </FormControl>
+              </CellControls>
+              <BackgroundSettings>
+                <UseBackgroundImage>false</UseBackgroundImage>
+                <LoadImageFromStore>false</LoadImageFromStore>
+                <ResizeImageToFit>false</ResizeImageToFit>
+              </BackgroundSettings>
+              <Margin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Margin>
+              <Padding>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+              <TextAlignment>Left</TextAlignment>
+              <Font>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Overline>false</Overline>
+                <Size>0</Size>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <Color>#FF000000</Color>
+              </Font>
+              <StyleSource>Theme</StyleSource>
+              <CellStyleSource>Inline</CellStyleSource>
+              <Alignment>Left</Alignment>
+              <BorderMargin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </BorderMargin>
+            </Cell>
+            <Cell>
+              <Id>93005F9FB0314A8BA9F62C0606E082B3</Id>
+              <Name>Cell4</Name>
+              <Collapsible>false</Collapsible>
+              <Collapsed>false</Collapsed>
+              <Visible>true</Visible>
+              <DisplayIndex>1</DisplayIndex>
+              <Width>352.24</Width>
+              <PercentageWidth>37</PercentageWidth>
+              <CellLayout>1</CellLayout>
+              <Height>103</Height>
+              <MinHeight>60</MinHeight>
+              <Orientation>0</Orientation>
+              <Border>0</Border>
+              <BackgroundColor>#FFFFFFFF</BackgroundColor>
+              <BorderColor>#FFFFFFFF</BorderColor>
+              <CellControls>
+                <FormControl xsi:type="ButtonControl">
+                  <ControlType>Button</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>Clicked</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>7B2C8F7E502F4D37A34B302570178A10</Id>
+                            <Name>GetPersonaForResource</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>EDD967FC055A488CA21B97FAEDDFF1EE</Id>
+                            <Name>RedirectToPersonaLandingPage</Name>
+                            <ActionType>JavaScript</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>70C9FA047E9A4307B51051EA9D522EDF</Id>
+                            <Name>BC_IfLandingPageDoesNotExists</Name>
+                            <ActionType>BeginCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>E6AEB561208D47128CE8C4F354520E88</Id>
+                            <Name>Redirect2</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>37DB5DF8462C4C9F8356C5AAFCA156A7</Id>
+                            <Name>EC_IfLandingPageDoesNotExists</Name>
+                            <ActionType>EndCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>WorkspaceHeader</Name>
+                    <Version>3</Version>
+                  </FormIdentity>
+                  <Id>9C9C8242A0A34FA394DA6CE4156C1FCA</Id>
+                  <Name>btnHome</Name>
+                  <Margin>
+                    <Top>19</Top>
+                    <Left>0</Left>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Margin>
+                  <Width>25.04106925880923</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>5.4678007290400972</PercentageWidth>
+                  <Height>24</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>0</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <ToolTip>Home</ToolTip>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Class</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Stretch</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>0</ControlLayout>
+                  <ExpandToFit>false</ExpandToFit>
+                  <Text />
+                  <CausesValidation>true</CausesValidation>
+                  <Confirmation>
+                    <Message />
+                    <Show>false</Show>
+                    <Source>Dynamic</Source>
+                    <DynamicMessageType>0</DynamicMessageType>
+                  </Confirmation>
+                  <ResizeToFit>false</ResizeToFit>
+                  <DefaultButton>false</DefaultButton>
+                  <DotNetButton>false</DotNetButton>
+                  <TextAlignment>Center</TextAlignment>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                    <CssClass>workspaceheader-homebutton</CssClass>
+                  </Font>
+                  <ImagePath>home.png</ImagePath>
+                  <LoadFromStore>true</LoadFromStore>
+                  <ShowValidationSummary>false</ShowValidationSummary>
+                  <IsPrimaryButton>false</IsPrimaryButton>
+                </FormControl>
+                <FormControl xsi:type="ButtonControl">
+                  <ControlType>Button</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>Clicked</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>F9021E3A6D35458BA3911AC7EC762D09</Id>
+                            <Name>Redirct_MailBox</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>WorkspaceHeader</Name>
+                    <Version>3</Version>
+                  </FormIdentity>
+                  <Id>2E30C55DD20443958CA00368A42BE34B</Id>
+                  <Name>btnreadNoteIndicator</Name>
+                  <Margin>
+                    <Top>19</Top>
+                    <Left>5</Left>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Margin>
+                  <Width>25.04106925880923</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>5.4678007290400972</PercentageWidth>
+                  <Height>24</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>0</TabIndex>
+                  <DisplayIndex>2</DisplayIndex>
+                  <ToolTip>Notes</ToolTip>
+                  <State>Hidden</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Stretch</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>0</ControlLayout>
+                  <ExpandToFit>false</ExpandToFit>
+                  <Text />
+                  <CausesValidation>true</CausesValidation>
+                  <Confirmation>
+                    <Message />
+                    <Show>false</Show>
+                    <Source>Dynamic</Source>
+                    <DynamicMessageType>0</DynamicMessageType>
+                  </Confirmation>
+                  <ResizeToFit>false</ResizeToFit>
+                  <DefaultButton>false</DefaultButton>
+                  <DotNetButton>false</DotNetButton>
+                  <TextAlignment>Center</TextAlignment>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                    <CssClass />
+                  </Font>
+                  <ImagePath>mail_open.png</ImagePath>
+                  <LoadFromStore>true</LoadFromStore>
+                  <ShowValidationSummary>false</ShowValidationSummary>
+                  <IsPrimaryButton>false</IsPrimaryButton>
+                </FormControl>
+                <FormControl xsi:type="ButtonControl">
+                  <ControlType>Button</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>Clicked</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>F9021E3A6D35458BA3911AC7EC762D09</Id>
+                            <Name>Redirct_MailBox</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>WorkspaceHeader</Name>
+                    <Version>3</Version>
+                  </FormIdentity>
+                  <Id>EDDEFA93DC9046A7893F50DBFD5F0432</Id>
+                  <Name>butunreadNoteIndicator</Name>
+                  <Margin>
+                    <Top>19</Top>
+                    <Left>5</Left>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Margin>
+                  <Width>25.04106925880923</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>5.4678007290400972</PercentageWidth>
+                  <Height>24</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>0</TabIndex>
+                  <DisplayIndex>3</DisplayIndex>
+                  <ToolTip>Notes</ToolTip>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Stretch</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>0</ControlLayout>
+                  <ExpandToFit>false</ExpandToFit>
+                  <Text />
+                  <CausesValidation>true</CausesValidation>
+                  <Confirmation>
+                    <Message />
+                    <Show>false</Show>
+                    <Source>Dynamic</Source>
+                    <DynamicMessageType>0</DynamicMessageType>
+                  </Confirmation>
+                  <ResizeToFit>false</ResizeToFit>
+                  <DefaultButton>false</DefaultButton>
+                  <DotNetButton>false</DotNetButton>
+                  <TextAlignment>Center</TextAlignment>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                    <CssClass />
+                  </Font>
+                  <ImagePath>mail_closed.png</ImagePath>
+                  <LoadFromStore>true</LoadFromStore>
+                  <ShowValidationSummary>false</ShowValidationSummary>
+                  <IsPrimaryButton>false</IsPrimaryButton>
+                </FormControl>
+                <FormControl xsi:type="ButtonControl">
+                  <ControlType>Button</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>Clicked</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>4591A9C307DE440F89AB320A860F73FC</Id>
+                            <Name>GetHelpURL</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>0FEB768790E84038A804511F18D66809</Id>
+                            <Name>CompleteHelpURL</Name>
+                            <ActionType>CalculationRule</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>2A1BCAD078F142FE943F65D0A725220E</Id>
+                            <Name>BCIfOnlineHelp</Name>
+                            <ActionType>BeginCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>3A5158B89589415FBE1BC5256272B576</Id>
+                            <Name>RedirectOnlineHelp</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>02073D39DA9E4B34B55D2A89C75B6A8D</Id>
+                            <Name>BCIfOnlineHelpElse</Name>
+                            <ActionType>ElseCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>E6AEB561208D47128CE8C4F354520E89</Id>
+                            <Name>Redirect3</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>1404C23B1F12424DAA71A6BB96645F5E</Id>
+                            <Name>BCIfOnlineHelpEnd</Name>
+                            <ActionType>EndCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>WorkspaceHeader</Name>
+                    <Version>3</Version>
+                  </FormIdentity>
+                  <Id>427566565074433B9E0A979722975E6C</Id>
+                  <Name>btnHelp</Name>
+                  <Margin>
+                    <Top>19</Top>
+                    <Left>5</Left>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Margin>
+                  <Width>25.04106925880923</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>5.4678007290400972</PercentageWidth>
+                  <Height>24</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>0</TabIndex>
+                  <DisplayIndex>4</DisplayIndex>
+                  <ToolTip>Help</ToolTip>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Stretch</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>0</ControlLayout>
+                  <ExpandToFit>false</ExpandToFit>
+                  <Text />
+                  <CausesValidation>true</CausesValidation>
+                  <Confirmation>
+                    <Message />
+                    <Show>false</Show>
+                    <Source>Dynamic</Source>
+                    <DynamicMessageType>0</DynamicMessageType>
+                  </Confirmation>
+                  <ResizeToFit>false</ResizeToFit>
+                  <DefaultButton>false</DefaultButton>
+                  <DotNetButton>false</DotNetButton>
+                  <TextAlignment>Center</TextAlignment>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                    <CssClass />
+                  </Font>
+                  <ImagePath>help_icon.png</ImagePath>
+                  <LoadFromStore>true</LoadFromStore>
+                  <ShowValidationSummary>false</ShowValidationSummary>
+                  <IsPrimaryButton>false</IsPrimaryButton>
+                </FormControl>
+                <FormControl xsi:type="CustomActionButton">
+                  <ControlType>CustomActionButton</ControlType>
+                  <FormControlEvents />
+                  <FormIdentity>
+                    <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>WorkspaceHeader</Name>
+                    <Version>18</Version>
+                  </FormIdentity>
+                  <Id>FF59B18620254AB1B7ABCA456B8D8343</Id>
+                  <Name>btnProfile</Name>
+                  <Margin>
+                    <Top>19</Top>
+                    <Left>5</Left>
+                    <Right>22</Right>
+                    <Bottom>0</Bottom>
+                  </Margin>
+                  <Width>20.138544</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>4.06</PercentageWidth>
+                  <Height>24</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>0</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Stretch</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>1</ControlLayout>
+                  <ExpandToFit>false</ExpandToFit>
+                  <Text />
+                  <Icon>
+                    <Name>user_profile.png</Name>
+                    <Source>Inline</Source>
+                  </Icon>
+                  <LoadImageFromStore>false</LoadImageFromStore>
+                  <MenuItems>
+                    <CustomActionMenuItem>
+                      <Identity>
+                        <Id>1B04C823D3FC47DBBE8F4F9817D77107</Id>
+                      </Identity>
+                      <Text>Profile</Text>
+                      <LoadImageFromStore>false</LoadImageFromStore>
+                      <CausesValidation>false</CausesValidation>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>3896226A88FC47C797AC847E31E64E23</Id>
+                            <Name>Redirect4</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </CustomActionMenuItem>
+                    <CustomActionMenuItem>
+                      <Identity>
+                        <Id>B63679408FF845DE98FD32236875CE08</Id>
+                      </Identity>
+                      <Text>Logout</Text>
+                      <LoadImageFromStore>false</LoadImageFromStore>
+                      <CausesValidation>false</CausesValidation>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>E6AEB561208D47128CE8C4F354520E87</Id>
+                            <Name>Redirect1</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </CustomActionMenuItem>
+                  </MenuItems>
+                  <TextAlignment>Center</TextAlignment>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                    <CssClass />
+                  </Font>
+                  <UsedOnTableColumn>false</UsedOnTableColumn>
+                  <ShowImage>true</ShowImage>
+                  <DefaultStyle>
+                    <StyleSource>Theme</StyleSource>
+                    <TextAlignment>Left</TextAlignment>
+                  </DefaultStyle>
+                  <HoverStyle>
+                    <StyleSource>Theme</StyleSource>
+                    <TextAlignment>Left</TextAlignment>
+                  </HoverStyle>
+                  <IsPrimaryButton>false</IsPrimaryButton>
+                </FormControl>
+              </CellControls>
+              <BackgroundSettings>
+                <UseBackgroundImage>false</UseBackgroundImage>
+                <LoadImageFromStore>false</LoadImageFromStore>
+                <ResizeImageToFit>false</ResizeImageToFit>
+              </BackgroundSettings>
+              <Margin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Margin>
+              <Padding>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+              <TextAlignment>Left</TextAlignment>
+              <Font>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Overline>false</Overline>
+                <Size>0</Size>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <Color>#FF000000</Color>
+              </Font>
+              <StyleSource>Theme</StyleSource>
+              <CellStyleSource>Inline</CellStyleSource>
+              <Alignment>Right</Alignment>
+              <BorderMargin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </BorderMargin>
+            </Cell>
+          </Cells>
+        </Row>
+        <Row>
+          <Id>04086775CED444BA7A93084CD9CAC70D</Id>
+          <Width>952</Width>
+          <Height>2</Height>
+          <DisplayIndex>1</DisplayIndex>
+          <Cells>
+            <Cell>
+              <Id>A3E0B1B769D147A59C778D31AD8ADA8B</Id>
+              <Name>Cell5</Name>
+              <Collapsible>false</Collapsible>
+              <Collapsed>false</Collapsed>
+              <Visible>true</Visible>
+              <DisplayIndex>0</DisplayIndex>
+              <Width>952</Width>
+              <PercentageWidth>100</PercentageWidth>
+              <CellLayout>1</CellLayout>
+              <Height>2</Height>
+              <MinHeight>2</MinHeight>
+              <Orientation>0</Orientation>
+              <Border>0</Border>
+              <BackgroundColor>#FFFFC600FF</BackgroundColor>
+              <BorderColor>#FFFFC600FF</BorderColor>
+              <CellControls />
+              <BackgroundSettings>
+                <UseBackgroundImage>false</UseBackgroundImage>
+                <LoadImageFromStore>false</LoadImageFromStore>
+                <ResizeImageToFit>false</ResizeImageToFit>
+              </BackgroundSettings>
+              <Margin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Margin>
+              <Padding>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+              <TextAlignment>Left</TextAlignment>
+              <Font>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Overline>false</Overline>
+                <Size>0</Size>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <Color>#FF000000</Color>
+              </Font>
+              <StyleSource>Theme</StyleSource>
+              <CellStyleSource>Inline</CellStyleSource>
+              <Alignment>None</Alignment>
+              <BorderMargin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </BorderMargin>
+            </Cell>
+          </Cells>
+        </Row>
+      </Rows>
+      <BackgroundColor>#FFFFFFFF</BackgroundColor>
+    </FormColumn>
+  </Columns>
+  <InitializationVars />
+  <Actions>
+    <FormAction xsi:type="DisplayRuleAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>3</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>0CCEEAB2303B4489B6D74CC400474C9D</Id>
+        <Name>Dis_SetReadUnRead</Name>
+        <ActionType>DisplayRule</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <Rule>
+        <Conditions>
+          <Condition>
+            <Id>noteCount</Id>
+            <Operator>GREATER THAN</Operator>
+            <Value>0</Value>
+            <Source>Inline</Source>
+            <ControlType>FormVariable</ControlType>
+            <FieldType>Numeric</FieldType>
+          </Condition>
+        </Conditions>
+        <DisplaySettings>
+          <DisplaySetting>
+            <Id>butunreadNoteIndicator</Id>
+            <Setting>Enabled</Setting>
+            <ControlType>Button</ControlType>
+          </DisplaySetting>
+          <DisplaySetting>
+            <Id>btnreadNoteIndicator</Id>
+            <Setting>Hidden</Setting>
+            <ControlType>Button</ControlType>
+          </DisplaySetting>
+        </DisplaySettings>
+        <DisplaySettingsFalse>
+          <DisplaySetting>
+            <Id>butunreadNoteIndicator</Id>
+            <Setting>Hidden</Setting>
+            <ControlType>Button</ControlType>
+          </DisplaySetting>
+          <DisplaySetting>
+            <Id>btnreadNoteIndicator</Id>
+            <Setting>Enabled</Setting>
+            <ControlType>Button</ControlType>
+          </DisplaySetting>
+        </DisplaySettingsFalse>
+        <RuleData>
+          <RuleInputs>
+            <RuleInput>
+              <Id>noteCount</Id>
+              <Scope>FormVariable</Scope>
+              <VariableType>Long</VariableType>
+            </RuleInput>
+          </RuleInputs>
+          <Script>¬noteCount¬ &gt; 0</Script>
+          <RuleType>DisplayRuleAction</RuleType>
+        </RuleData>
+      </Rule>
+    </FormAction>
+    <FormAction xsi:type="RedirectAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>3</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>F9021E3A6D35458BA3911AC7EC762D09</Id>
+        <Name>Redirct_MailBox</Name>
+        <ActionType>Redirect</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <Redirect>
+        <IsModalWindow>false</IsModalWindow>
+        <Page>MailBox</Page>
+        <Target>SameWindow</Target>
+        <RedirectType>Internal</RedirectType>
+        <PopupWidth>800</PopupWidth>
+        <PopupHeight>500</PopupHeight>
+        <InternalRedirectFormIdentity>
+          <Id>0909869BE6A943A08316857158E25E08</Id>
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Name>MailBox</Name>
+          <Version>0</Version>
+        </InternalRedirectFormIdentity>
+        <IgnoreRedirectConfirmation>false</IgnoreRedirectConfirmation>
+        <UseBreadcrumbTrail>false</UseBreadcrumbTrail>
+      </Redirect>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>3</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>DCD6EA416C8A4E9AA44B9FA2239C249C</Id>
+        <Name>GetUnreadNoteCount</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>GetResourceNoteCount</Name>
+        <ClassName>TotalAgility.Sdk.ResourceService</ClassName>
+        <AssemblyName>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyName>
+        <AssemblyLoadType>Gac</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Resources.ResourceIdentity" value="" name="ownerId" selection="false">
+            <member name="Id" source="session" type="System.String" value="" field="RESOURCE_ID" selection="false" index="0" />
+            <member name="Name" source="session" type="System.String" value="" field="RESOURCE_NAME" selection="false" index="0" />
+            <member name="ResourceType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="inline" field="" datatype="System.Int16" value="1" name="status" selection="false" />
+          <Parameter direction="ret" source="formvariable" field="noteCount" datatype="System.Int32" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="RedirectAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>3</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>E6AEB561208D47128CE8C4F354520E88</Id>
+        <Name>Redirect2</Name>
+        <ActionType>Redirect</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <Redirect>
+        <IsModalWindow>false</IsModalWindow>
+        <Page>GeneralWorkQueue.form</Page>
+        <Target>SameWindow</Target>
+        <RedirectType>External</RedirectType>
+        <PopupWidth>800</PopupWidth>
+        <PopupHeight>500</PopupHeight>
+        <IgnoreRedirectConfirmation>false</IgnoreRedirectConfirmation>
+        <UseBreadcrumbTrail>false</UseBreadcrumbTrail>
+      </Redirect>
+    </FormAction>
+    <FormAction xsi:type="EndConditionAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>15</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>37DB5DF8462C4C9F8356C5AAFCA156A7</Id>
+        <Name>EC_IfLandingPageDoesNotExists</Name>
+        <ActionType>EndCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="BeginConditionAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>15</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>70C9FA047E9A4307B51051EA9D522EDF</Id>
+        <Name>BC_IfLandingPageDoesNotExists</Name>
+        <ActionType>BeginCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition>
+        <Condition>
+          <Id>PersonaLandingTAForm</Id>
+          <Operator>EQUALS</Operator>
+          <Value>''</Value>
+          <Source>Inline</Source>
+          <LogicalOperator>AND</LogicalOperator>
+          <ControlType>FormVariable</ControlType>
+          <FieldType>String</FieldType>
+        </Condition>
+        <Condition>
+          <Id>PersonaLandingExternalForm</Id>
+          <Operator>EQUALS</Operator>
+          <Value>''</Value>
+          <Source>Inline</Source>
+          <ControlType>FormVariable</ControlType>
+          <FieldType>String</FieldType>
+        </Condition>
+      </FiringCondition>
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <RuleData>
+        <RuleInputs>
+          <RuleInput>
+            <Id>PersonaLandingTAForm</Id>
+            <Scope>FormVariable</Scope>
+            <VariableType>String</VariableType>
+          </RuleInput>
+          <RuleInput>
+            <Id>PersonaLandingExternalForm</Id>
+            <Scope>FormVariable</Scope>
+            <VariableType>String</VariableType>
+          </RuleInput>
+        </RuleInputs>
+        <Script>¬PersonaLandingTAForm¬ = '' AND ¬PersonaLandingExternalForm¬ = ''</Script>
+        <RuleType>BeingConditionAction</RuleType>
+      </RuleData>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>4</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>7B2C8F7E502F4D37A34B302570178A10</Id>
+        <Name>GetPersonaForResource</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>GetResourcePersona</Name>
+        <ClassName>TotalAgility.Sdk.PersonaService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Resources.ResourceIdentity" value="" name="resource" selection="false">
+            <member name="Id" source="session" type="System.String" value="" field="RESOURCE_ID" selection="false" index="0" />
+            <member name="Name" source="session" type="System.String" value="" field="RESOURCE_NAME" selection="false" index="0" />
+            <member name="ResourceType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="ret" source="" field="" datatype="Agility.Sdk.Model.Personas.Persona" value="" name="Return Parameter" selection="false">
+            <member name="LandingPage" source="" type="Agility.Sdk.Model.Personas.LandingPageData" value="" field="" selection="false" index="0">
+              <member name="Form" source="" type="Agility.Sdk.Model.Forms.FormIdentity" value="" field="" selection="false" index="0">
+                <member name="Name" source="formvariable" type="System.String" value="" field="PersonaLandingTAForm" selection="false" index="0" />
+              </member>
+              <member name="ExternalForm" source="formvariable" type="System.String" value="" field="PersonaLandingExternalForm" selection="false" index="0" />
+              <member name="Mappings" source="formvariable" type="Agility.Sdk.Model.Navigation.ParamMapping[]" value="" field="PersonaLandingFormMappings" selection="false" index="0">
+                <member source="formvariable" type="Agility.Sdk.Model.Navigation.ParamMapping" value="" field="PersonaLandingFormMappings" selection="false" index="0">
+                  <member name="VarName" source="formvariable" type="System.String" value="" field="PersonaLandingFormMappings.Column1" selection="false" index="0" />
+                  <member name="MappedValue" source="formvariable" type="System.String" value="" field="PersonaLandingFormMappings.Column2" selection="false" index="0" />
+                  <member name="IsGlobalVariable" source="formvariable" type="System.Boolean" value="" field="PersonaLandingFormMappings.Column3" selection="false" index="0" />
+                </member>
+              </member>
+            </member>
+          </Parameter>
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>6</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>4591A9C307DE440F89AB320A860F73FC</Id>
+        <Name>GetHelpURL</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>GetHelpURL</Name>
+        <ClassName>TotalAgility.Sdk.ClientService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="ret" source="formvariable" field="HelpURL" datatype="System.String" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="ElseConditionAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>6</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>02073D39DA9E4B34B55D2A89C75B6A8D</Id>
+        <Name>BCIfOnlineHelpElse</Name>
+        <ActionType>ElseCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="EndConditionAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>6</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>1404C23B1F12424DAA71A6BB96645F5E</Id>
+        <Name>BCIfOnlineHelpEnd</Name>
+        <ActionType>EndCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="BeginConditionAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>6</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>2A1BCAD078F142FE943F65D0A725220E</Id>
+        <Name>BCIfOnlineHelp</Name>
+        <ActionType>BeginCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition>
+        <Condition>
+          <Id>HelpURL</Id>
+          <Operator>NOT EQUALS</Operator>
+          <Value>''</Value>
+          <Source>Inline</Source>
+          <ControlType>FormVariable</ControlType>
+          <FieldType>String</FieldType>
+        </Condition>
+      </FiringCondition>
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <RuleData>
+        <RuleInputs>
+          <RuleInput>
+            <Id>HelpURL</Id>
+            <Scope>FormVariable</Scope>
+            <VariableType>String</VariableType>
+          </RuleInput>
+        </RuleInputs>
+        <Script>¬HelpURL¬ != ''</Script>
+        <RuleType>BeingConditionAction</RuleType>
+      </RuleData>
+    </FormAction>
+    <FormAction xsi:type="CalculationRuleAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>6</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>0FEB768790E84038A804511F18D66809</Id>
+        <Name>CompleteHelpURL</Name>
+        <ActionType>CalculationRule</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <CalculationRule>
+        <Calculations>
+          <Calculation>
+            <Id>HelpURL</Id>
+            <Operator>+</Operator>
+            <Source>FormVariable</Source>
+            <ControlType>FormVariable</ControlType>
+            <FieldType>String</FieldType>
+          </Calculation>
+          <Calculation>
+            <Id>WorkSpaceHelpPath</Id>
+            <Source>FormVariable</Source>
+            <ControlType>FormVariable</ControlType>
+            <FieldType>String</FieldType>
+          </Calculation>
+        </Calculations>
+        <Target>CompleteHelpURL</Target>
+        <TargetSource>FormVariable</TargetSource>
+        <TargetDataType>String</TargetDataType>
+        <RuleData>
+          <RuleInputs>
+            <RuleInput>
+              <Id>HelpURL</Id>
+              <Scope>FormVariable</Scope>
+              <VariableType>String</VariableType>
+            </RuleInput>
+            <RuleInput>
+              <Id>WorkSpaceHelpPath</Id>
+              <Scope>FormVariable</Scope>
+              <VariableType>String</VariableType>
+            </RuleInput>
+          </RuleInputs>
+          <Script>¬HelpURL¬ + ¬WorkSpaceHelpPath¬</Script>
+          <RuleType>CalculationRuleAction</RuleType>
+        </RuleData>
+      </CalculationRule>
+    </FormAction>
+    <FormAction xsi:type="RedirectAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>3</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>E6AEB561208D47128CE8C4F354520E87</Id>
+        <Name>Redirect1</Name>
+        <ActionType>Redirect</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <Redirect>
+        <IsModalWindow>false</IsModalWindow>
+        <Page>./custom/logOff.html</Page>
+        <Target>SameWindow</Target>
+        <RedirectType>External</RedirectType>
+        <PopupWidth>800</PopupWidth>
+        <PopupHeight>500</PopupHeight>
+        <IgnoreRedirectConfirmation>false</IgnoreRedirectConfirmation>
+        <UseBreadcrumbTrail>false</UseBreadcrumbTrail>
+      </Redirect>
+    </FormAction>
+    <FormAction xsi:type="RedirectAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>3</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>3896226A88FC47C797AC847E31E64E23</Id>
+        <Name>Redirect4</Name>
+        <ActionType>Redirect</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <Redirect>
+        <IsModalWindow>false</IsModalWindow>
+        <Page>Profile</Page>
+        <Target>SameWindow</Target>
+        <RedirectType>Internal</RedirectType>
+        <PopupWidth>800</PopupWidth>
+        <PopupHeight>500</PopupHeight>
+        <InternalRedirectFormIdentity>
+          <Id>1F84BE5525B14DE1B9B95A44C57C0CF3</Id>
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Name>Profile</Name>
+          <Version>0</Version>
+        </InternalRedirectFormIdentity>
+        <IgnoreRedirectConfirmation>false</IgnoreRedirectConfirmation>
+        <UseBreadcrumbTrail>false</UseBreadcrumbTrail>
+      </Redirect>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>50</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>5234F13F070BECADB39FED8457053FF1</Id>
+        <Name>DotNetMethod1</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Description />
+      <Method>
+        <Name>GetResourceSummary</Name>
+        <ClassName>TotalAgility.Sdk.ResourceService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Resources.ResourceIdentity" value="" name="resourceIdentity" selection="false">
+            <member name="Id" source="session" type="System.String" value="" field="RESOURCE_ID" selection="false" index="0" />
+            <member name="Name" source="session" type="System.String" value="" field="RESOURCE_NAME" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="ret" source="" field="" datatype="Agility.Sdk.Model.Resources.ResourceSummary" value="" name="Return Parameter" selection="false">
+            <member name="NoteCount" source="formvariable" type="System.Int32" value="" field="noteCount" selection="false" index="0" />
+          </Parameter>
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>50</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>E3E11DA19B47B6EBF200DC65A5593E30</Id>
+        <Name>GetNoteCountAndProfilePicName</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Description />
+      <Method>
+        <Name>GetResourceSummary</Name>
+        <ClassName>TotalAgility.Sdk.ResourceService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Resources.ResourceIdentity" value="" name="resourceIdentity" selection="false">
+            <member name="Id" source="session" type="System.String" value="" field="RESOURCE_ID" selection="false" index="0" />
+            <member name="Name" source="session" type="System.String" value="" field="RESOURCE_NAME" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="ret" source="" field="" datatype="Agility.Sdk.Model.Resources.ResourceSummary" value="" name="Return Parameter" selection="false">
+            <member name="ProfilePictureName" source="formvariable" type="System.String" value="" field="ProfilePictureName" selection="false" index="0" />
+            <member name="NoteCount" source="formvariable" type="System.Int32" value="" field="noteCount" selection="false" index="0" />
+          </Parameter>
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="JavaScriptAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>50</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>E0EC62324D8878CFB0B1806C42A02D64</Id>
+        <Name>LoadProfilePictue</Name>
+        <ActionType>JavaScript</ActionType>
+      </Identity>
+      <Description />
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <Script>
+if(thisForm.formVariables.getFormVariableByName('ProfilePictureName').value != ""){
+var url = window.location.protocol + "//" + window.location.host + "/";
+if(window.WEBSITEBASENAME != "")
+{
+url = url + window.WEBSITEBASENAME +"/";
+}
+url = url + "Forms/DeployedImages/"+thisForm.formVariables.getFormVariableByName('ProfilePictureName').value + "?ResourceId=" + Forms.Common.Common.GetResourceID();
+
+var imageLocation= thisForm.controlManager.getControlByName('btnProfile');
+var s='&lt;div class="ta-imagebutton" style=""&gt;&lt;img src="'+url + '" height="25" width="25"/&gt;&lt;/div&gt;';
+imageLocation.setControlData(s);
+}</Script>
+    </FormAction>
+    <FormAction xsi:type="RedirectAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>3</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>E6AEB561208D47128CE8C4F354520E89</Id>
+        <Name>Redirect3</Name>
+        <ActionType>Redirect</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <Redirect>
+        <IsModalWindow>false</IsModalWindow>
+        <Page>OfflineHelpPath</Page>
+        <Source>FormVariable</Source>
+        <Target>NewWindow</Target>
+        <RedirectType>Dynamic</RedirectType>
+        <PopupWidth>800</PopupWidth>
+        <PopupHeight>500</PopupHeight>
+        <IgnoreRedirectConfirmation>false</IgnoreRedirectConfirmation>
+        <UseBreadcrumbTrail>false</UseBreadcrumbTrail>
+      </Redirect>
+    </FormAction>
+    <FormAction xsi:type="RedirectAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>6</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>3A5158B89589415FBE1BC5256272B576</Id>
+        <Name>RedirectOnlineHelp</Name>
+        <ActionType>Redirect</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <Redirect>
+        <IsModalWindow>false</IsModalWindow>
+        <Page>CompleteHelpURL</Page>
+        <Source>FormVariable</Source>
+        <Target>NewWindow</Target>
+        <RedirectType>Dynamic</RedirectType>
+        <PopupWidth>800</PopupWidth>
+        <PopupHeight>500</PopupHeight>
+        <IgnoreRedirectConfirmation>false</IgnoreRedirectConfirmation>
+        <UseBreadcrumbTrail>false</UseBreadcrumbTrail>
+      </Redirect>
+    </FormAction>
+    <FormAction xsi:type="JavaScriptAction">
+      <FormIdentity>
+        <Id>C14C213906D446ACB48F414D2EDF9970</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WorkspaceHeader</Name>
+        <Version>5</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>EDD967FC055A488CA21B97FAEDDFF1EE</Id>
+        <Name>RedirectToPersonaLandingPage</Name>
+        <ActionType>JavaScript</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+      <Script>
+        var landingTAForm = thisForm.dataHelper.retrieveData('PersonaLandingTAForm', Forms.Constants.TYPE.FORM_VARIABLE);
+        var landingExternalForm = thisForm.dataHelper.retrieveData('PersonaLandingExternalForm', Forms.Constants.TYPE.FORM_VARIABLE);
+        // Form mapping variables if exists
+        var mappingVariables = ''; // write a method to extract from the form variable LandingPageMappingVariables
+
+        var mappingVarArray = thisForm.formVariables.formVariableArray[2];
+        if (mappingVarArray.value.length &gt; 0)
+        {
+        var mappingVariables = '?'
+        for (var i = 0; i &lt; mappingVarArray.value.length; i++) {
+        if(mappingVarArray.value[i][2] == true)
+        {
+        mappingVarArray.value[i][1] = sessionStorage[mappingVarArray.value[i][1]];
+        if(!mappingVarArray.value[i][1])
+        {
+        mappingVarArray.value[i][1] = '';
+        }
+        }
+        mappingVariables = mappingVariables + mappingVarArray.value[i][0] + '=' + mappingVarArray.value[i][1] + '&amp;';
+        }
+        //remove last &amp;
+        mappingVariables = mappingVariables.substr(0, mappingVariables.length - 1);
+        }
+
+        if (landingTAForm) {
+        formUrl = landingTAForm + '.form' + mappingVariables;
+        if (Forms.Common.Common.GetKeyValue('EmbeddedFormMode')) {
+        window.open(formUrl, '_blank', '');
+        }
+        else {
+        window.location = formUrl;
+        }
+        }
+
+        else if (landingExternalForm) {
+        formUrl = landingExternalForm;
+        if (formUrl.indexOf('.form') &lt; 0 &amp;&amp; Forms.Common.Common.GetSiteName() != '' &amp;&amp; Forms.Common.Common.GetSiteName() != null &amp;&amp; formUrl.indexOf('http') &lt; 0 &amp;&amp; formUrl.indexOf('https') &lt; 0) {
+        if (formUrl.indexOf('./') == 0)
+        formUrl = '.' + formUrl;
+        else
+        formUrl = '../' + formUrl;
+        }
+        formUrl = formUrl + mappingVariables;
+         if (formUrl.substring(0, 7) != 'http://' &amp;&amp; formUrl.substring(0, 8) != 'https://')
+        {
+        formUrl = 'http://' + formUrl;
+        }
+        if (Forms.Common.Common.GetKeyValue('EmbeddedFormMode')) {
+        window.open(formUrl, '_blank', '');
+        }
+        else {
+        window.location = formUrl;
+        }
+        }
+
+        if(thisForm.formVariables.getFormVariableByName('PersonaLandingTAForm').value == null)
+        {
+        thisForm.formVariables.getFormVariableByName('PersonaLandingTAForm').value = '';
+        }
+        if (thisForm.formVariables.getFormVariableByName('PersonaLandingExternalForm').value == null) {
+        thisForm.formVariables.getFormVariableByName('PersonaLandingExternalForm').value = '';
+        }
+      </Script>
+    </FormAction>
+  </Actions>
+  <FormVariables>
+    <FormVariable>
+      <Identity>
+        <Name>CompleteHelpURL</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>HelpURL</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>noteCount</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Numeric</VariableType>
+      <Value xsi:type="xsd:string">0</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>OfflineHelpPath</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string">./custom/Help.html</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>PersonaLandingExternalForm</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>PersonaLandingFormMappings</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Array</VariableType>
+      <Value xsi:type="xsd:string">3</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>PersonaLandingTAForm</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>ProfilePictureName</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>WorkSpaceHelpPath</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string">/help/Workspace/index.html</Value>
+    </FormVariable>
+  </FormVariables>
+  <CategoryId>E2A1706B60424707B39A1BDDDC8DB69C</CategoryId>
+  <UseHeader>false</UseHeader>
+  <UseHorizontalNavigation>false</UseHorizontalNavigation>
+  <UseVerticalNavigation>false</UseVerticalNavigation>
+  <StringMappingsCollection>
+    <StringMappingEntity>
+      <ControlID>C14C213906D446ACB48F414D2EDF9970</ControlID>
+      <Property>formtitle</Property>
+      <StringId>7CEE807ED1AE48109C1CF3027A3FD3D2</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>659CD2FF9FC94BF2A6DB2DC6E556B627</ControlID>
+      <Property>titletext</Property>
+      <StringId>C2FEBF299E164002979898B4848F562A</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>93005F9FB0314A8BA9F62C0606E082B3</ControlID>
+      <Property>titletext</Property>
+      <StringId>5AC4D961293741F9905577ED36DB8F41</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>A3E0B1B769D147A59C778D31AD8ADA8B</ControlID>
+      <Property>titletext</Property>
+      <StringId>7160AD3E0B944720A11AF887B714E2D8</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>E7321DF399F94DC4ABAFD1CD993928AC</ControlID>
+      <Property>text</Property>
+      <StringId>9235C049DD7B474FAE2D11FDB653970F</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>E7321DF399F94DC4ABAFD1CD993928AC</ControlID>
+      <Property>tooltip</Property>
+      <StringId>12454BAC0D3640709F93806CBEE2DDA4</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>E7321DF399F94DC4ABAFD1CD993928AC</ControlID>
+      <Property>confirmationmessage</Property>
+      <StringId>0D4187FB85574CDAADA29C8C271F8CD3</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>14DD97198E814392B9A26C26A5409307</ControlID>
+      <Property>text</Property>
+      <StringId>2C0A3F8505FF45358F47F5092BB21DF4</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>14DD97198E814392B9A26C26A5409307</ControlID>
+      <Property>tooltip</Property>
+      <StringId>10758C77F49D4D05A538BB2A290EED23</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>9C9C8242A0A34FA394DA6CE4156C1FCA</ControlID>
+      <Property>text</Property>
+      <StringId>37D01A7E96AC437CA3AECBB3BB1D2815</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>9C9C8242A0A34FA394DA6CE4156C1FCA</ControlID>
+      <Property>tooltip</Property>
+      <StringId>7629A1DC7B8D4FC9A0F3A140DB38AC2C</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>9C9C8242A0A34FA394DA6CE4156C1FCA</ControlID>
+      <Property>confirmationmessage</Property>
+      <StringId>BC126A0524E348AB87DA021DFF75E1F9</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>2E30C55DD20443958CA00368A42BE34B</ControlID>
+      <Property>text</Property>
+      <StringId>2CDAAE4093AB478E8616DC4893614919</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>2E30C55DD20443958CA00368A42BE34B</ControlID>
+      <Property>tooltip</Property>
+      <StringId>46EE216D7B5646809E91D02E6AC494B7</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>2E30C55DD20443958CA00368A42BE34B</ControlID>
+      <Property>confirmationmessage</Property>
+      <StringId>40127498EBFC475BAA28E5971D504D14</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>EDDEFA93DC9046A7893F50DBFD5F0432</ControlID>
+      <Property>text</Property>
+      <StringId>8E196E54B6AD4607A938D8B75E50AE9C</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>EDDEFA93DC9046A7893F50DBFD5F0432</ControlID>
+      <Property>tooltip</Property>
+      <StringId>C09A7883D59141F9B86DF888CF5E431E</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>EDDEFA93DC9046A7893F50DBFD5F0432</ControlID>
+      <Property>confirmationmessage</Property>
+      <StringId>BEBC2E7E166F42108AC98689D7287F95</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>427566565074433B9E0A979722975E6C</ControlID>
+      <Property>text</Property>
+      <StringId>F603568927B84F6A84F21BFAFDE9C3AB</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>427566565074433B9E0A979722975E6C</ControlID>
+      <Property>tooltip</Property>
+      <StringId>82CAF2E67BBE45FE96FF76D8845658A0</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>427566565074433B9E0A979722975E6C</ControlID>
+      <Property>confirmationmessage</Property>
+      <StringId>E9366C542D034891A33B3DEE9FFA040F</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>FF59B18620254AB1B7ABCA456B8D8343</ControlID>
+      <Property>text</Property>
+      <StringId>8A29CAA59315477C9F0FCFBEC77FAB04</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>FF59B18620254AB1B7ABCA456B8D8343</ControlID>
+      <Property>tooltip</Property>
+      <StringId>EEBB19F1DE8140A3B4CBA0F18E843C44</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>1B04C823D3FC47DBBE8F4F9817D77107</ControlID>
+      <Property>text</Property>
+      <StringId>514B539A6DFB45C8A50C2920D2DD292B</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>B63679408FF845DE98FD32236875CE08</ControlID>
+      <Property>text</Property>
+      <StringId>84571FD9DEC240EF897F3DB6C40F6CE7</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>5AC93221D71043FE8C34679A0590B664</StringId>
+      <VarId>CompleteHelpURL</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>190FBAD3C598486FABA7BC1988A593B9</StringId>
+      <VarId>HelpURL</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>B737E5F489C04804BED392E26120BD71</StringId>
+      <VarId>OfflineHelpPath</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>EEF45DFDBA92428899828BA75B8C9F7F</StringId>
+      <VarId>PersonaLandingExternalForm</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>142506B770AC4A45A2236433F1D00550</StringId>
+      <VarId>PersonaLandingTAForm</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>30790C00200B401986BF7478E8BAC80A</StringId>
+      <VarId>ProfilePictureName</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>2C4042A2539C457DABD11F3FBE9AFEC2</StringId>
+      <VarId>WorkSpaceHelpPath</VarId>
+    </StringMappingEntity>
+  </StringMappingsCollection>
+  <Language>base</Language>
+  <DisplayRules />
+  <CalculationRules />
+  <RefreshInterval>0</RefreshInterval>
+  <BackgroundColor>#FFFFFFFF</BackgroundColor>
+  <ErrorLocation>Default</ErrorLocation>
+  <FormLayout>Flow</FormLayout>
+  <PercentageWidth>100</PercentageWidth>
+  <Status>Released</Status>
+  <ApplySecurityToken>false</ApplySecurityToken>
+  <AllowByDefault>true</AllowByDefault>
+  <Resources />
+  <FormEvents>
+    <FormEvent>
+      <EventType>Loaded</EventType>
+      <Actions>
+        <FormActionSummary>
+          <Identity>
+            <Id>E3E11DA19B47B6EBF200DC65A5593E30</Id>
+            <Name>GetNoteCountAndProfilePicName</Name>
+            <ActionType>DotNet</ActionType>
+          </Identity>
+          <Disabled>false</Disabled>
+        </FormActionSummary>
+        <FormActionSummary>
+          <Identity>
+            <Id>0CCEEAB2303B4489B6D74CC400474C9D</Id>
+            <Name>Dis_SetReadUnRead</Name>
+            <ActionType>DisplayRule</ActionType>
+          </Identity>
+          <Disabled>false</Disabled>
+        </FormActionSummary>
+        <FormActionSummary>
+          <Identity>
+            <Id>E0EC62324D8878CFB0B1806C42A02D64</Id>
+            <Name>LoadProfilePictue</Name>
+            <ActionType>JavaScript</ActionType>
+          </Identity>
+          <Disabled>false</Disabled>
+        </FormActionSummary>
+      </Actions>
+    </FormEvent>
+    <FormEvent>
+      <EventType>BeforeRender</EventType>
+      <Actions />
+    </FormEvent>
+    <FormEvent>
+      <EventType>AfterRender</EventType>
+      <Actions />
+    </FormEvent>
+  </FormEvents>
+  <IsThemePageColor>true</IsThemePageColor>
+  <ShouldTriggerOnLoad>true</ShouldTriggerOnLoad>
+  <AssociatedLabelWidth>100</AssociatedLabelWidth>
+  <UseViewport>false</UseViewport>
+  <ViewportSettings>
+    <UserScalable>false</UserScalable>
+  </ViewportSettings>
+  <BackgroundSettings>
+    <UseBackgroundImage>false</UseBackgroundImage>
+    <LoadImageFromStore>false</LoadImageFromStore>
+    <ResizeImageToFit>false</ResizeImageToFit>
+  </BackgroundSettings>
+  <FormAlign>Center</FormAlign>
+  <TouchEnabled>false</TouchEnabled>
+  <MobileFormProperties>
+    <ActionMenus />
+  </MobileFormProperties>
+  <NavigationView>
+    <ToolBars />
+    <Enabled>false</Enabled>
+  </NavigationView>
+  <DesignWidth>960</DesignWidth>
+  <DesignHeight>200</DesignHeight>
+  <PrimaryForm>Desktop</PrimaryForm>
+  <AllowAnyone>true</AllowAnyone>
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+  <RedirectConfirmation>false</RedirectConfirmation>
+  <RedirectOnLoadErrorForm>
+    <FormIdentity>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </FormIdentity>
+    <RedirectOptions>Origin</RedirectOptions>
+  </RedirectOnLoadErrorForm>
+  <FormVariants />
+  <UseBrowserTabOrder>false</UseBrowserTabOrder>
+  <EnableColumnSplitting>false</EnableColumnSplitting>
+  <ShowColumnSplitter>false</ShowColumnSplitter>
+  <ExpandLastRowToFit>false</ExpandLastRowToFit>
+  <UseRelativeHeight>false</UseRelativeHeight>
+  <Responsive>false</Responsive>
+  <ShowMandatoryAsterisk>false</ShowMandatoryAsterisk>
+  <FormDataModels />
+  <MappedFormVariables>
+    <FormVariable>
+      <Identity>
+        <Name>CompleteHelpURL</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>HelpURL</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>noteCount</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Numeric</VariableType>
+      <Value xsi:type="xsd:string">0</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>OfflineHelpPath</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string">./custom/Help.html</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>PersonaLandingExternalForm</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>PersonaLandingFormMappings</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Array</VariableType>
+      <Value xsi:type="xsd:string">3</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>PersonaLandingTAForm</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>ProfilePictureName</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>WorkSpaceHelpPath</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string">/help/Workspace/index.html</Value>
+    </FormVariable>
+  </MappedFormVariables>
+  <IsVerticalNavMenuCollapsible>false</IsVerticalNavMenuCollapsible>
+  <IsVerticalNavMenuCollapsed>false</IsVerticalNavMenuCollapsed>
+  <ValidateSessionForActions>false</ValidateSessionForActions>
+  <GetQueriesAssociatedWithFormVariants />
+</SimpleForm>
