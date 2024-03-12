@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>79F8A03109B14B03B6A25D09359219EF</Id>
+    <Name>BRCheckNull</Name>
+    <Version>3</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>3</Version>
+  <ProcessIdentity>
+    <Id>B8BF49D88E6448CCA84A3A6072153EFF</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>3</Version>
+    <Name>BRCheckNull</Name>
+  </ProcessIdentity>
+  <RuleType>Process</RuleType>
+  <CategoryIdentity>
+    <Id>D054F31327E040C6BBFC2A44961D439E</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </CategoryIdentity>
+  <LastModifiedUserName />
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>4DC99E0F1D8B9F4585820081C64E2AE4</LastModifiedUser>
+  <LastModifiedDate>2019-08-09T11:48:07.89</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <inputs>
+      <name>INPUT_STRING</name>
+      <type>8</type>
+      <description>Input_String</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+    </inputs>
+    <outputs>
+      <name>ISVALID</name>
+      <type>11</type>
+      <description>IsValid</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+    </outputs>
+    <outputs>
+      <name>ERRORMESSAGE</name>
+      <type>8</type>
+      <description>ErrorMessage</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <inputs>
+      <name>INPUT_STRING</name>
+      <type>8</type>
+      <description>Input_String</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+    </inputs>
+    <outputs>
+      <name>ISVALID</name>
+      <type>11</type>
+      <description>IsValid</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+    </outputs>
+    <outputs>
+      <name>ERRORMESSAGE</name>
+      <type>8</type>
+      <description>ErrorMessage</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+    </decisiontabledata>
+  </Rule>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>

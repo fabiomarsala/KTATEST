@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DocumentForm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DBVersion>7.10</DBVersion>
+  <FormType>DocumentValidation</FormType>
+  <FormIdentity>
+    <Id>B1F71483C43B4B429F04D0C7BDC50D5B</Id>
+    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+    <Name>INSTALACIONES_ELECTRICAS_Validation</Name>
+    <Version>12</Version>
+  </FormIdentity>
+  <Title>INSTALACIONES_ELECTRICAS_Validation</Title>
+  <Width>800</Width>
+  <Height>608</Height>
+  <LastModifiedDateTime>2021-01-12T12:02:11.883</LastModifiedDateTime>
+  <InternalModifiedDate>2024-01-23T07:04:11.587</InternalModifiedDate>
+  <LastModifiedByUser>4DC99E0F1D8B9F4585820081C64E2AE4</LastModifiedByUser>
+  <Columns>
+    <FormColumn>
+      <DisplayIndex>0</DisplayIndex>
+      <Width>790</Width>
+      <PercentageWidth>100</PercentageWidth>
+      <Height>789</Height>
+      <Rows>
+        <Row>
+          <Width>789</Width>
+          <Height>30</Height>
+          <DisplayIndex>0</DisplayIndex>
+          <Cells>
+            <Cell>
+              <Id>2B1B34D26E5D42C1810CDEC692382F08</Id>
+              <Name>Cell1</Name>
+              <Collapsible>false</Collapsible>
+              <Collapsed>false</Collapsed>
+              <Visible>true</Visible>
+              <DisplayIndex>0</DisplayIndex>
+              <Width>1296.5</Width>
+              <PercentageWidth>100</PercentageWidth>
+              <CellLayout>0</CellLayout>
+              <Height>30</Height>
+              <MinHeight>25</MinHeight>
+              <Orientation>1</Orientation>
+              <Border>0</Border>
+              <BackgroundColor>Transparent</BackgroundColor>
+              <BorderColor>#FF99bce8</BorderColor>
+              <CellControls>
+                <FormControl xsi:type="CheckBoxCaptureControl">
+                  <ControlType>CaptureCheckBox</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>CheckChanged</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>7D46F36BAF0D40DD86106B4DB42E5596</Id>
+                            <Name>SaveChanges</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>866EBC263247468BA8E4A4CBFE0515B5</Id>
+                            <Name>REVISADOConfirmFieldAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>true</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldConfirmed</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>498CA2E18D1E4C208B3A56E66CFFBF0E</Id>
+                            <Name>REVISADOConfirmFieldAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldForcedValid</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>664EFE77134F4A02A815A3961BB62191</Id>
+                            <Name>REVISADOFieldForcedValidAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>true</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>B1F71483C43B4B429F04D0C7BDC50D5B</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>INSTALACIONES ELECTRICAS_Validation</Name>
+                    <Version>0</Version>
+                  </FormIdentity>
+                  <Id>59F51A1F2D634EADB0BDA2CF1AFD1D34</Id>
+                  <Name>REVISADO</Name>
+                  <Margin>
+                    <Top>2</Top>
+                    <Left>2</Left>
+                    <Right>2</Right>
+                    <Bottom>2</Bottom>
+                  </Margin>
+                  <Width>40</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>100</PercentageWidth>
+                  <Height>22</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>0</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Left</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>0</ControlLayout>
+                  <ExpandToFit>false</ExpandToFit>
+                  <IsChecked>false</IsChecked>
+                  <TextAlignment>Left</TextAlignment>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                    <CssClass />
+                  </Font>
+                  <Label>
+                    <ControlType>Label</ControlType>
+                    <FormControlEvents />
+                    <FormIdentity>
+                      <Id>B1F71483C43B4B429F04D0C7BDC50D5B</Id>
+                      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                      <Name>INSTALACIONES ELECTRICAS_Validation</Name>
+                      <Version>0</Version>
+                    </FormIdentity>
+                    <Id>B64D50184D834C7FA289CE81C4763D10</Id>
+                    <Name>etiquetaREVISADO</Name>
+                    <Margin>
+                      <Top>2</Top>
+                      <Left>2</Left>
+                      <Right>2</Right>
+                      <Bottom>2</Bottom>
+                    </Margin>
+                    <Width>100</Width>
+                    <MinWidth>0</MinWidth>
+                    <PercentageWidth>100</PercentageWidth>
+                    <Height>22</Height>
+                    <Enabled>true</Enabled>
+                    <TabIndex>0</TabIndex>
+                    <DisplayIndex>1</DisplayIndex>
+                    <State>Optional</State>
+                    <Style>Default</Style>
+                    <StyleSource>Theme</StyleSource>
+                    <IsAutoGenerated>false</IsAutoGenerated>
+                    <CannotDelete>false</CannotDelete>
+                    <ControlAlignment>None</ControlAlignment>
+                    <UsePercentageHeight>false</UsePercentageHeight>
+                    <PercentageHeight>5</PercentageHeight>
+                    <ControlLayout>0</ControlLayout>
+                    <ExpandToFit>false</ExpandToFit>
+                    <Text>REVISADO</Text>
+                    <TextAlignment>Left</TextAlignment>
+                    <Font>
+                      <Bold>false</Bold>
+                      <Italic>false</Italic>
+                      <Name>Arial</Name>
+                      <Overline>false</Overline>
+                      <Size>11</Size>
+                      <Strikeout>false</Strikeout>
+                      <Underline>false</Underline>
+                      <Color>#FF000000</Color>
+                    </Font>
+                    <LabelType>Basic</LabelType>
+                    <HeadingSize>0</HeadingSize>
+                    <DisplayDateWithoutTime>false</DisplayDateWithoutTime>
+                  </Label>
+                  <ShowLabel>true</ShowLabel>
+                  <LabelPosition>Left</LabelPosition>
+                  <IsValid>false</IsValid>
+                  <FieldName>REVISADO</FieldName>
+                  <ReadOnly>false</ReadOnly>
+                  <ShowMiniViewer>false</ShowMiniViewer>
+                  <MiniViewerHeight>40</MiniViewerHeight>
+                  <MiniViewerWidth>150</MiniViewerWidth>
+                  <MiniViewerPosition>Right</MiniViewerPosition>
+                  <GeneralFormType>Document</GeneralFormType>
+                </FormControl>
+              </CellControls>
+              <BackgroundSettings>
+                <UseBackgroundImage>false</UseBackgroundImage>
+                <LoadImageFromStore>false</LoadImageFromStore>
+                <ResizeImageToFit>false</ResizeImageToFit>
+              </BackgroundSettings>
+              <Margin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Margin>
+              <Padding>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+              <TextAlignment>Left</TextAlignment>
+              <Font>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Overline>false</Overline>
+                <Size>0</Size>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+              </Font>
+              <StyleSource>Theme</StyleSource>
+              <CellStyleSource>Inline</CellStyleSource>
+              <Alignment>None</Alignment>
+              <BorderMargin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </BorderMargin>
+            </Cell>
+          </Cells>
+        </Row>
+      </Rows>
+      <BackgroundColor>#FFFFFFFF</BackgroundColor>
+    </FormColumn>
+  </Columns>
+  <InitializationVars />
+  <Actions>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>B1F71483C43B4B429F04D0C7BDC50D5B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>INSTALACIONES_ELECTRICAS_Validation</Name>
+        <Version>10</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>498CA2E18D1E4C208B3A56E66CFFBF0E</Id>
+        <Name>REVISADOConfirmFieldAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ConfirmField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="REVISADO.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>B1F71483C43B4B429F04D0C7BDC50D5B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>INSTALACIONES_ELECTRICAS_Validation</Name>
+        <Version>10</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>664EFE77134F4A02A815A3961BB62191</Id>
+        <Name>REVISADOFieldForcedValidAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ForceValidField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="REVISADO.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="REVISADO.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>B1F71483C43B4B429F04D0C7BDC50D5B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>INSTALACIONES_ELECTRICAS_Validation</Name>
+        <Version>10</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>3F9FEAD652AF42808A176527E1F34A17</Id>
+        <Name>SaveChanges</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>SaveChanges2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="inlinescript" type="System.String" value="" field="CEBPM.controller.AppConfig.getMainView().sessionID" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="inlinescript" field="CEBPM.controller.BatchData.getChanges()" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+  </Actions>
+  <FormVariables>
+    <FormVariable>
+      <Identity>
+        <Name>DocumentTypeId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string">287715FD0AD24B4784A3CBA4FA55BCE1</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>SelectedPageId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>DocumentId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+  </FormVariables>
+  <CategoryId>D054F31327E040C6BBFC2A44961D439E</CategoryId>
+  <UseHeader xsi:nil="true" />
+  <UseHorizontalNavigation xsi:nil="true" />
+  <UseVerticalNavigation xsi:nil="true" />
+  <StringMappingsCollection>
+    <StringMappingEntity>
+      <ControlID>B1F71483C43B4B429F04D0C7BDC50D5B</ControlID>
+      <Property>formtitle</Property>
+      <StringId>532F0D6D14F54475B8C4E82EC8336C59</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>2B1B34D26E5D42C1810CDEC692382F08</ControlID>
+      <Property>titletext</Property>
+      <StringId>3BBF838F55A8402AB878E59EB3F529F9</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>B64D50184D834C7FA289CE81C4763D10</ControlID>
+      <Property>text</Property>
+      <StringId>B55861C027564EDAAB1CC259123A38BE</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>B64D50184D834C7FA289CE81C4763D10</ControlID>
+      <Property>tooltip</Property>
+      <StringId>045C763129A343E6A4B600B677B5C99E</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>59F51A1F2D634EADB0BDA2CF1AFD1D34</ControlID>
+      <Property>text</Property>
+      <StringId>8709FCB2B9A245C1A0066D3EC829C117</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>59F51A1F2D634EADB0BDA2CF1AFD1D34</ControlID>
+      <Property>tooltip</Property>
+      <StringId>68D85D6DA5774935AE3C56C0B92AF4BB</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>59F51A1F2D634EADB0BDA2CF1AFD1D34</ControlID>
+      <Property>errormessage</Property>
+      <StringId>6FA841765AFA4BFBA2D3CE9E01CC4A67</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>D114C2DBEECF484EB18B6585EBEFC928</StringId>
+      <VarId>DocumentTypeId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>215535E5EFBC4490AB1404850EFF167F</StringId>
+      <VarId>SelectedPageId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>4D9D3FD4D1F24015BB4001114264F055</StringId>
+      <VarId>DocumentId</VarId>
+    </StringMappingEntity>
+  </StringMappingsCollection>
+  <Language>base</Language>
+  <DisplayRules />
+  <CalculationRules />
+  <RefreshInterval>0</RefreshInterval>
+  <BackgroundColor>#FFFFFFFF</BackgroundColor>
+  <ErrorLocation>Default</ErrorLocation>
+  <FormLayout>Fixed</FormLayout>
+  <PercentageWidth>100</PercentageWidth>
+  <Status>Released</Status>
+  <ApplySecurityToken>false</ApplySecurityToken>
+  <AllowByDefault>true</AllowByDefault>
+  <Resources />
+  <FormEvents>
+    <FormEvent>
+      <EventType>Loaded</EventType>
+      <Actions />
+    </FormEvent>
+    <FormEvent>
+      <EventType>BeforeRender</EventType>
+      <Actions />
+    </FormEvent>
+    <FormEvent>
+      <EventType>AfterRender</EventType>
+      <Actions />
+    </FormEvent>
+  </FormEvents>
+  <LastModifiedByUserName>Ezequiel KOHAN</LastModifiedByUserName>
+  <IsThemePageColor>true</IsThemePageColor>
+  <ShouldTriggerOnLoad>true</ShouldTriggerOnLoad>
+  <AssociatedLabelWidth>100</AssociatedLabelWidth>
+  <UseViewport>false</UseViewport>
+  <ViewportSettings>
+    <UserScalable>false</UserScalable>
+  </ViewportSettings>
+  <BackgroundSettings>
+    <UseBackgroundImage>false</UseBackgroundImage>
+    <LoadImageFromStore>false</LoadImageFromStore>
+    <ResizeImageToFit>false</ResizeImageToFit>
+  </BackgroundSettings>
+  <FormAlign>Center</FormAlign>
+  <TouchEnabled>false</TouchEnabled>
+  <MobileFormProperties>
+    <ActionMenus />
+  </MobileFormProperties>
+  <NavigationView>
+    <ToolBars />
+    <Enabled>false</Enabled>
+  </NavigationView>
+  <DesignWidth>1300</DesignWidth>
+  <DesignHeight>200</DesignHeight>
+  <PrimaryForm>Desktop</PrimaryForm>
+  <AllowAnyone>true</AllowAnyone>
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+  <RedirectConfirmation>false</RedirectConfirmation>
+  <RedirectOnLoadErrorForm>
+    <FormIdentity>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </FormIdentity>
+    <RedirectOptions>Origin</RedirectOptions>
+  </RedirectOnLoadErrorForm>
+  <FormVariants />
+  <UseBrowserTabOrder>false</UseBrowserTabOrder>
+  <EnableColumnSplitting>false</EnableColumnSplitting>
+  <ShowColumnSplitter>false</ShowColumnSplitter>
+  <ExpandLastRowToFit>false</ExpandLastRowToFit>
+  <UseRelativeHeight>false</UseRelativeHeight>
+  <Responsive>false</Responsive>
+  <ShowMandatoryAsterisk>false</ShowMandatoryAsterisk>
+  <FormDataModels />
+  <MappedFormVariables />
+  <IsVerticalNavMenuCollapsible>false</IsVerticalNavMenuCollapsible>
+  <IsVerticalNavMenuCollapsed>false</IsVerticalNavMenuCollapsed>
+  <ValidateSessionForActions>false</ValidateSessionForActions>
+  <GetQueriesAssociatedWithFormVariants />
+  <CaptureReferenceId>287715FD0AD24B4784A3CBA4FA55BCE1</CaptureReferenceId>
+  <CaptureReferenceVersion>66</CaptureReferenceVersion>
+  <DocumentTypeIdentity>
+    <Id>287715FD0AD24B4784A3CBA4FA55BCE1</Id>
+    <Version>66</Version>
+    <Name />
+  </DocumentTypeIdentity>
+  <EnableTableAutoHeight>false</EnableTableAutoHeight>
+</DocumentForm>

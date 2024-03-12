@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>75BB6BC5A6D64F8EA4ACE1DE94AE8C91</Id>
+    <Name>KTA to Web Service - QA</Name>
+    <Version>2</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+  </CategoryIdentity>
+  <LastModifiedDateTime>2024-01-22T17:42:32.36</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>BB2B23BAA43F034089B2228E5E15DEE5</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Administrator</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>C6E8734ECC9AD48F0E2741DF41AFFED2</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>15</Version>
+        <Name>Prueba envío a EDR</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>CombineAssociatedMaps</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+      <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>D24D5B9F1EC54843887E43924C7C853B</Id>
+        <Name>BRCheckControl</Name>
+        <Version>6</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>79F8A03109B14B03B6A25D09359219EF</Id>
+        <Name>BRCheckNull</Name>
+        <Version>3</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+    </BusinessRules>
+    <Assets />
+    <Forms>
+      <FormIdentity>
+        <Id>1A4460BF87F24ED5A31D4A8A62F1ABAE</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>DNI_Validation</Name>
+        <Version>9</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>42358BFFA5BA4D598B4F5AD4F2625D10</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>REPRESENTACION_Validation</Name>
+        <Version>4</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>624E2F958C57444399BBA8197CEBBDFD</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>DDJJ_CARGAS_Validation</Name>
+        <Version>8</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>6266E0A1893A41C39DC49C028DE63A8D</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>IDENTIDAD_SOCIAL_Validation</Name>
+        <Version>10</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>7679C546462D44B69768018B45AFEAB4</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>ESTADO_MEDIDOR_Validation</Name>
+        <Version>11</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>98E051D96528489CBE6487601F6559D4</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>POSESION_Validation</Name>
+        <Version>4</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>B1F71483C43B4B429F04D0C7BDC50D5B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>INSTALACIONES_ELECTRICAS_Validation</Name>
+        <Version>12</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>C9F7B861F255482EBAAF2531AFED0D5F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>CAMBIO_TARIFA_Validation</Name>
+        <Version>11</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>D2419B9C18C04F5E8A347C8032F6303B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>CONDICION_IMPOSITIVA_Validation</Name>
+        <Version>10</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>F0B7C9652EAC4A2FAA6B0404BCEDDEFB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>HABILITACION_Validation</Name>
+        <Version>8</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>FED501EE5E004FFC9569CA0D6A2F26E1</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>AUTORIZACION_Validation</Name>
+        <Version>50</Version>
+      </FormIdentity>
+    </Forms>
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups>
+      <LookupIdentity>
+        <Id>70DD0F404FBA411C87594F2E141C9C6B</Id>
+        <Name>RUBROS</Name>
+      </LookupIdentity>
+      <LookupIdentity>
+        <Id>CFFC8514DB6842A3A833DCFBD6BECC91</Id>
+        <Name>TIPO_TITULARIDAD</Name>
+      </LookupIdentity>
+    </Lookups>
+    <Resources>
+      <ResourceIdentity>
+        <Id>23D9F935677F4F569D71A866F43B1579</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>svc_kta_qa</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+    </Resources>
+    <Entities />
+    <WorkTypes>
+      <WorkQueueDefinitionIdentity>
+        <Id>A857E59C761E42CC92F1399CFBFAA173</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>WQ_EXTRACCION_VALIDACION</Name>
+        <LastModifiedOn>0001-01-01T00:00:00</LastModifiedOn>
+      </WorkQueueDefinitionIdentity>
+    </WorkTypes>
+    <Checklists />
+    <DataModels />
+    <Folders />
+    <ExtractionGroups>
+      <DocumentGroupIdentity>
+        <Id>27987410D44E4F16A6A753A2CBF61E59</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>66</Version>
+        <Name>Comer_Extraccion</Name>
+      </DocumentGroupIdentity>
+    </ExtractionGroups>
+    <ClassificationGroups />
+    <Formatters />
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>5C32F584F82747AF89F9FC94D0E39D20</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Test Category</Name>
+      </CategoryIdentity>
+      <CategoryIdentity>
+        <Id>D054F31327E040C6BBFC2A44961D439E</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Tramites Comerciales</Name>
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles />
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <JobSchedules />
+    <RegularExpressions>
+      <RegularExpressionIdentity>
+        <Id>7924790B2433438692C50B5AFB0B2F60</Id>
+        <Name>Cuit sin dígito Verificador</Name>
+      </RegularExpressionIdentity>
+      <RegularExpressionIdentity>
+        <Id>EF44C4C75FB4494BBD69D57AB7FAB57F</Id>
+        <Name>Solo Numeros</Name>
+      </RegularExpressionIdentity>
+      <RegularExpressionIdentity>
+        <Id>C1EA57BCD1CE46DD8DC270D43CBF9B8B</Id>
+        <Name>UK Date</Name>
+      </RegularExpressionIdentity>
+    </RegularExpressions>
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>true</ShowProcessAssociations>
+    <ShowFormAssociations>true</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>false</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </QuickApp>
+    <GitFolderName />
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>C6E8734ECC9AD48F0E2741DF41AFFED2</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>79F8A03109B14B03B6A25D09359219EF</Id>
+            <ItemType>1</ItemType>
+            <Name>BRCheckNull</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D24D5B9F1EC54843887E43924C7C853B</Id>
+            <ItemType>1</ItemType>
+            <Name>BRCheckControl</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>5C32F584F82747AF89F9FC94D0E39D20</Id>
+            <ItemType>28</ItemType>
+            <Name>Test Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D054F31327E040C6BBFC2A44961D439E</Id>
+            <ItemType>28</ItemType>
+            <Name>Tramites Comerciales</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>27987410D44E4F16A6A753A2CBF61E59</Id>
+            <ItemType>18</ItemType>
+            <Name>Comer_Extraccion</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>98E051D96528489CBE6487601F6559D4</Id>
+            <ItemType>6</ItemType>
+            <Name>POSESION_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>B1F71483C43B4B429F04D0C7BDC50D5B</Id>
+            <ItemType>6</ItemType>
+            <Name>INSTALACIONES_ELECTRICAS_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D2419B9C18C04F5E8A347C8032F6303B</Id>
+            <ItemType>6</ItemType>
+            <Name>CONDICION_IMPOSITIVA_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>F0B7C9652EAC4A2FAA6B0404BCEDDEFB</Id>
+            <ItemType>6</ItemType>
+            <Name>HABILITACION_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7679C546462D44B69768018B45AFEAB4</Id>
+            <ItemType>6</ItemType>
+            <Name>ESTADO_MEDIDOR_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C9F7B861F255482EBAAF2531AFED0D5F</Id>
+            <ItemType>6</ItemType>
+            <Name>CAMBIO_TARIFA_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>FED501EE5E004FFC9569CA0D6A2F26E1</Id>
+            <ItemType>6</ItemType>
+            <Name>AUTORIZACION_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>6266E0A1893A41C39DC49C028DE63A8D</Id>
+            <ItemType>6</ItemType>
+            <Name>IDENTIDAD_SOCIAL_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>624E2F958C57444399BBA8197CEBBDFD</Id>
+            <ItemType>6</ItemType>
+            <Name>DDJJ_CARGAS_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1A4460BF87F24ED5A31D4A8A62F1ABAE</Id>
+            <ItemType>6</ItemType>
+            <Name>DNI_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>42358BFFA5BA4D598B4F5AD4F2625D10</Id>
+            <ItemType>6</ItemType>
+            <Name>REPRESENTACION_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>CFFC8514DB6842A3A833DCFBD6BECC91</Id>
+            <ItemType>21</ItemType>
+            <Name>TIPO_TITULARIDAD</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>70DD0F404FBA411C87594F2E141C9C6B</Id>
+            <ItemType>21</ItemType>
+            <Name>RUBROS</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C6E8734ECC9AD48F0E2741DF41AFFED2</Id>
+            <ItemType>0</ItemType>
+            <Name>Prueba envío a EDR</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>EF44C4C75FB4494BBD69D57AB7FAB57F</Id>
+            <ItemType>22</ItemType>
+            <Name>Solo Numeros</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7924790B2433438692C50B5AFB0B2F60</Id>
+            <ItemType>22</ItemType>
+            <Name>Cuit sin dígito Verificador</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C1EA57BCD1CE46DD8DC270D43CBF9B8B</Id>
+            <ItemType>22</ItemType>
+            <Name>UK Date</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>23D9F935677F4F569D71A866F43B1579</Id>
+            <ItemType>11</ItemType>
+            <Name>svc_kta_qa</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>A857E59C761E42CC92F1399CFBFAA173</Id>
+            <ItemType>23</ItemType>
+            <Name>WQ_EXTRACCION_VALIDACION</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_USERNAME</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SYSTEM_SESSION_ID</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables>
+      <SessionVariableIdentity>
+        <Name>SESSION_ID</Name>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+    </GlobalVariables>
+    <ServerVariables>
+      <VariableIdentity>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Version>0</Version>
+        <DisplayName>SPP_SYSTEM_SESSION_ID</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_USERNAME</Id>
+        <Version>0</Version>
+        <DisplayName>AD_USERNAME</DisplayName>
+      </VariableIdentity>
+    </ServerVariables>
+    <DotNetReferences />
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+</SpaPackage>

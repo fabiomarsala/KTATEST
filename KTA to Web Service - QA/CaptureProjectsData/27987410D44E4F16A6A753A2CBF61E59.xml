@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ProjectInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>27987410D44E4F16A6A753A2CBF61E59</Id>
+    <Version>66</Version>
+    <Name>Comer_Extraccion</Name>
+  </Identity>
+  <Category>
+    <Id>D054F31327E040C6BBFC2A44961D439E</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Tramites Comerciales</Name>
+  </Category>
+  <Name>Comer_Extraccion</Name>
+  <Description />
+  <Status>Released</Status>
+  <LastModifiedProjectFile>2021-11-11T18:55:45.617</LastModifiedProjectFile>
+  <LastModifiedProjectFolderZip>2021-11-11T18:51:39.417</LastModifiedProjectFolderZip>
+  <LastModifiedUser>
+    <Id>C5CEC9962BD5F146ADFAC09B0D23D46D</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <OnlineLearningFolderId />
+  <ProjectType>DocumentGroup</ProjectType>
+  <IsOnlineLearningEnabled>false</IsOnlineLearningEnabled>
+  <IsSeparationEnabled>false</IsSeparationEnabled>
+  <LockedByModule>None</LockedByModule>
+  <IsSimpleProject>false</IsSimpleProject>
+  <TrainingSetPath />
+  <UsedLicenseFeatures>None</UsedLicenseFeatures>
+  <ConfigurationSet>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ConfigSetFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Name&gt;DefaultTAConfigSet&lt;/Name&gt;
+  &lt;Groups&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;OnlineLearning&lt;/Name&gt;
+      &lt;Objects /&gt;
+      &lt;Properties&gt;
+        &lt;ConfigSetProperty&gt;
+          &lt;Name&gt;Path&lt;/Name&gt;
+          &lt;Value&gt;C:\ProgramData\Kofax Transformation\OnlineLearning\project&lt;/Value&gt;
+          &lt;Index&gt;0&lt;/Index&gt;
+        &lt;/ConfigSetProperty&gt;
+      &lt;/Properties&gt;
+    &lt;/ConfigSetGroup&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;LocalFuzzyDatabases&lt;/Name&gt;
+      &lt;Objects&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;DireccionesTest&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;C:\Recursos_Transformation\Tramites\Databases&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+      &lt;/Objects&gt;
+      &lt;Properties /&gt;
+    &lt;/ConfigSetGroup&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;Dictionaries&lt;/Name&gt;
+      &lt;Objects&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;DNI_TEMP&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;C:\Recursos_Transformation\Tramites\Dictionaries&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;AFIP_ACTIVIDADES&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;C:\Recursos_Transformation\Tramites\Dictionaries&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;RubrosHabilitaciones&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;C:\Recursos_Transformation\Tramites\Dictionaries&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+      &lt;/Objects&gt;
+      &lt;Properties /&gt;
+    &lt;/ConfigSetGroup&gt;
+  &lt;/Groups&gt;
+&lt;/ConfigSetFile&gt;</ConfigurationSet>
+  <IsReadOnly>false</IsReadOnly>
+  <DoUpgrade>false</DoUpgrade>
+  <CustomVersion>0</CustomVersion>
+  <IsLimitedToOnlineLearning>false</IsLimitedToOnlineLearning>
+  <IsCaptureSolutionProject>false</IsCaptureSolutionProject>
+  <QuickClassificationBaseDocTypeId />
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</ProjectInfo>
